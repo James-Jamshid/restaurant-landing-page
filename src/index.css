@@ -19,9 +19,7 @@ li {
   padding: 0;
   box-sizing: border-box;
 }
-/* p {
-  color: #3b413a;
-} */
+
 #icon2 {
   cursor: pointer;
 }
@@ -52,42 +50,33 @@ li {
   text-align: center;
   color: #0c0c0c;
 }
-/* 
-h1 {
- 
 
-  font-family: "Gilroy";
-  font-style: normal;
- 
-  text-align: center;
-
-  color: #ffad3c;
-} */
 h2 {
-  /* width: 379px;
-  height: 136px; */
-
   font-family: "Gilroy";
   font-style: normal;
-  /* font-weight: 700; */
-  /* font-size: 36px; */
-  /* line-height: 136px; */
   text-align: center;
-
   color: #ffffff;
 }
 h3 {
-  /* width: 379px;
-  height: 136px; */
-
   font-family: "Gilroy";
   font-style: normal;
-  /* font-weight: 700;
-  font-size: 110px;
-  line-height: 136px; */
   text-align: center;
-
   color: #000;
+}
+.video-js {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 16px; */
+}
+.vjs-poster {
+  /* border-radius: 16px; */
+}
+.video-js .vjs-big-play-button {
+  /* background-color: red !important; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 .input {

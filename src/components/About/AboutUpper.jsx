@@ -5,7 +5,7 @@ const AboutUpper = () => {
   return (
     <div
       id="about"
-      className="flex flex-col lg:flex-row items-center justify-evenly w-full gap-5 h-[1000px] px-10 pt-40 lg:pt-10 bg-[#f5fcf4]  "
+      className="flex flex-col lg:flex-row items-center justify-evenly w-full gap-5 h-[800px] px-10 pt-40 p lg:pt-10 bg-[#f5fcf4]  "
     >
       <div className="flex">
         <img
@@ -14,7 +14,7 @@ const AboutUpper = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col items-center gap-5">
         <h1 className="text-4xl">Our Story</h1>
         <p className="w-auto text-lg">
           Welcome to Kavsar restaurant. We take pride in delivering warm,

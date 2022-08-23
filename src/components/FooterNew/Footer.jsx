@@ -64,7 +64,17 @@ const Footer = () => {
           </Link>
         </h4>
         <h4 id="icon2" className="  text-[#dfe0e0] italic text-xl">
-          About
+          <Link
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-70}
+            className="transition-all duration-300"
+          >
+            About
+          </Link>
         </h4>
         <h4 id="icon2" className="  text-[#dfe0e0] italic text-xl">
           <Link
