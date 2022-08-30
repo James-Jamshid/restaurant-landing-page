@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import img1 from "../../assets/img2.webp";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const AboutUpper = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div
+      data-aos="fade-up"
       id="about"
       className="flex flex-col lg:flex-row items-center justify-evenly w-full gap-5 h-[800px] px-10 pt-40 p lg:pt-10 bg-[#f5fcf4]  "
     >

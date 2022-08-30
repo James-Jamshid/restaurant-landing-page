@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import clock from "../../assets/clock.svg";
 import address from "../../assets/address.svg";
 import phone from "../../assets/phone.svg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ContactUpper = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className="flex items-center justify-center pt-20 flex-col md:flex-row h-full py-10 gap-5 bg-[#f5fcf4]  ">
+    <div
+      data-aos="fade-right"
+      className="flex items-center justify-center pt-20 flex-col md:flex-row h-full py-10 gap-5 bg-[#f5fcf4]  "
+    >
       <div
         id="icon"
         className="flex flex-col gap-2 w-auto p-5 md:w-[300px] h-[300px] items-center justify-center rounded-3xl bg-[#b6c6ba]"

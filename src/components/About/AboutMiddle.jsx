@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import img1 from "../../assets/img4.webp";
 import img2 from "../../assets/img5.JPG";
 import img3 from "../../assets/img6.webp";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const AboutMiddle = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className="flex flex-col items-center  w-auto gap-10 h-auto pt-40  px-10 lg:pt-10  bg-[#f5fcf4]  ">
+    <div
+      data-aos="fade-right"
+      className="flex flex-col items-center  w-auto gap-10 h-auto pt-40  px-10 lg:pt-10  bg-[#f5fcf4]  "
+    >
       {/* <div className="flex"> */}
       <h1 className=" text-4xl">Our Goals</h1>
       <p className=" w-auto text-lg text-center">
